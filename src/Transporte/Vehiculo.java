@@ -39,6 +39,7 @@ public class Vehiculo {
         this.marca = marca;
     }
 
+    /*
     @Override
     public String toString() {
         return "Vehiculo: " +
@@ -46,4 +47,6 @@ public class Vehiculo {
                 "\nColor = " + color +
                 "\nMarca = " + marca;
     }
+
+     */
 }

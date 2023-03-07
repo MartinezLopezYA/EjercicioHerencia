@@ -30,6 +30,7 @@ public class Profesor extends Persona{
         this.categoria = categoria;
     }
 
+    /*
     @Override
     public String toString() {
         return super.toString() +
@@ -37,4 +38,6 @@ public class Profesor extends Persona{
                 "\nDepartamento = " + departamento +
                 "\nCategoría = " + categoria;
     }
+
+     */
 }

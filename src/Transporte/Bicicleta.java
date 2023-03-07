@@ -30,6 +30,7 @@ public class Bicicleta extends Vehiculo{
         this.categoria = categoria;
     }
 
+    /*
     @Override
     public String toString() {
         return super.toString() +
@@ -37,4 +38,6 @@ public class Bicicleta extends Vehiculo{
                 "\nRegistro = " + registro +
                 "\nCategoría = " + categoria;
     }
+
+     */
 }

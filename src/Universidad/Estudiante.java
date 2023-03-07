@@ -30,11 +30,13 @@ public class Estudiante extends Persona{
         this.semestre = semestre;
     }
 
-    @Override
+    /*@Override
     public String toString() {
         return super.toString() +
                 "\nEstudiante: " +
                 "\nCarrera = " + carrera +
                 "\nSemestre=" + semestre;
     }
+    */
+
 }

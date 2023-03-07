@@ -30,6 +30,7 @@ public class Coche extends Vehiculo{
         this.placa = placa;
     }
 
+    /*
     @Override
     public String toString() {
         return super.toString() +
@@ -37,4 +38,6 @@ public class Coche extends Vehiculo{
                 "\nKilometros = " + km + "Km" +
                 "\nPlaca = " + placa;
     }
+
+     */
 }

@@ -29,10 +29,12 @@ public class Persona {
         this.direccion = direccion;
     }
 
-    @Override
+    /*@Override
     public String toString() {
         return "Persona: " +
                 "\nNombre = " + nombre +
                 "\nDirección = " + direccion;
     }
+
+     */
 }

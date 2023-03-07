@@ -10,7 +10,7 @@ public class Main {
         car.setColor("Azul");
         car.setMarca("Doddge");
         car.setNllantas(4);
-        System.out.println(car.toString());
+        System.out.println("Vehiculo: " + car.getColor() + ", " + car.getNllantas() + ", " + car.getMarca() + "\nCoche: " + car.getKm() + ", " + car.getPlaca());
         System.out.println();
 
         Bicicleta cicla = new Bicicleta();
@@ -19,7 +19,8 @@ public class Main {
         cicla.setNllantas(2);
         cicla.setCategoria("Todo Terreno");
         cicla.setRegistro(453950);
-        System.out.println(cicla.toString());
+        System.out.println("Vehiculo: " + cicla.getColor() + ", " + cicla.getNllantas() + ", " + cicla.getMarca() + "\nBicicleta: " + cicla.getCategoria()  + ", " + cicla.getRegistro());
+
 
     }
 

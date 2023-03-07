@@ -8,14 +8,14 @@ public class Main {
         alumno.setDireccion("Zipaquirá");
         alumno.setCarrera("ISUM");
         alumno.setSemestre(9);
-        System.out.println(alumno.toString());
+        System.out.println("Persona: " + alumno.getNombre() + ", " + alumno.getDireccion() + "\nEstudiante: " + alumno.getCarrera() + ", " + alumno.getSemestre());
         System.out.println();
         Profesor docente = new Profesor();
         docente.setNombre("William");
         docente.setDireccion("Zipaquirá");
         docente.setCategoria("Programación");
         docente.setDepartamento("Ingeniería");
-        System.out.println(docente.toString());
+        System.out.println("Persona: " + docente.getNombre() + ", " + docente.getDireccion() + "\nProfesor: " + docente.getCategoria() + ", " + docente.getDepartamento());
 
     }
 }
